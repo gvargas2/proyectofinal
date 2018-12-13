@@ -1,0 +1,316 @@
+body {
+  background-color: #DCD0D0;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+.container-fluid {
+  background-color: #373737;
+}
+.navbar-default {
+  margin-bottom: 0;
+  border-bottom-width: 3px;
+  border-bottom-color: #DCD0D0;
+}
+.navbar-brand {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
+.navbar__links {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+}
+.navbar-toggle {
+  border: none;
+}
+.navbar-toggle .icon-bar {
+  height: 4px;
+}
+
+/*HEADER*/
+.header {
+  background-image: url(http://www.cocinayvino.com/wp-content/uploads/2016/11/60414810_l.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  margin-bottom: 25px;
+}
+.header .row {
+  margin: 0;
+}
+.header__titulo {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  position: relative;
+  top: 70px;
+}
+.header__titulo h1 {
+  font-size: 55px;
+  color: #F4F4F4;
+}
+
+/*MAIN*/
+.principal__row {
+  background-color: #373737;
+}
+
+/*SECCIÓN 2: PRODUCTOS*/
+.productos {
+  background-color: #373737;
+  color: #F4F4F4;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.productos h3 {
+  font-family: 'Lobster', cursive;
+  padding-bottom: 0;
+}
+.instruccion {
+  font-size: 12px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  color: gray;
+  padding-bottom: 20px;
+}
+.input-group {
+  width: 1px;
+}
+
+/*Seccion NOQUIS*/
+
+.titulo__selector__noquis {
+  color: #CDB283;
+  padding: 7px 15px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
+.lista__noquis {
+  display: inline-block;
+  color: #CDB283;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+}
+.productos__selector__noquis {
+  background-color: #373737;
+  border: none;
+  padding: 0;
+}
+.productos__selector__noquis p {
+  display: inline-block;
+  color: #CDB283;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+}
+
+/*Sección SALSAS*/
+.titulo__selector__salsas {
+  color: #DCD0D0;
+  padding: 7px 15px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
+.lista__salsas {
+  display: inline-block;
+  color: #DCD0D0;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+}
+.productos__selector__salsas {
+  background-color: #373737;
+  border: none;
+  padding: 0;
+}
+.productos__selector__salsas p {
+  display: inline-block;
+  color: #DCD0D0;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+}
+
+/*Sección TOPPINGS*/
+.titulo__selector__toppings {
+  color: #F4F4F4;
+  padding: 7px 15px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
+.lista__toppings {
+  display: inline-block;
+  color: #F4F4F4;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+}
+.productos__selector__toppings {
+  background-color: #373737;
+  border: none;
+  padding: 0;
+}
+.productos__selector__toppings p {
+  display: inline-block;
+  color: #F4F4F4;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+}
+
+/*SECCIÓN 3: CATEGORIAS*/
+.categorias  {
+  background-color: #373737;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+}
+.categoria__titulo {
+  font-weight: 700;
+  margin-bottom: 0;
+  padding-top: 15px;
+}
+.categoria__texto {
+  font-weight: 300;
+}
+.categoria__noquis {
+  background-color: #C0B283;
+  height: 33%;
+}
+.categoria__noquis__producto {
+  margin: 12px;
+  padding: 0;
+}
+.categoria__noquis__producto a {
+  display: block;
+  color: #373737;
+}
+.categoria__salsa {
+  background-color: #DCD0D0;
+  height: 33%;
+}
+.categoria__salsa__producto {
+  margin: 12px;
+  padding: 0;
+}
+.categoria__salsa__producto a {
+  display: block;
+  color: #373737;
+}
+.categoria__topping {
+  background-color: #F4F4F4;
+  height: 33%;
+}
+.categoria__topping__producto {
+  margin: 12px;
+  padding: 0;
+}
+.categoria__topping__producto a {
+  display: block;
+  color: #373737;
+}
+
+/*SECCIÓN 4: CARRITO DE COMPRAS*/
+.shopping {
+  background-color: #DCD0D0;
+  height: 300px;
+}
+.shopping__titulo {
+  font-family: 'Lobster', cursive;
+}
+.shopping__titulo h2 {
+  position: relative;
+  top: 86px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+fieldset {
+  text-align: right;
+}
+.formulario {
+  position: relative;
+  top: 30px;
+}
+.formulario input {
+  height: 200px;
+}
+.shopping__total {
+  font-family: 'Lobster', cursive;
+  position: relative;
+  top: 120px;
+}
+.shopping__total h2 {
+  display: inline-block;
+}
+.shopping__total p {
+  display: inline-block;
+  padding-left: 15px;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #373737;
+  color: #F4F4F4;
+}
+.footer {
+  height: 135px;
+  padding-top: 30px;
+}
+.footer__links a {
+  display: block;
+  text-align: center;
+  color: #C0B283;
+}
+.footer__logo {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  position: relative;
+  top: 20px;
+}
+.footer__rrss {
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+}
+.footer__rrss a {
+  color: #C0B283;
+}
+
+/*MEDIAS*/
+@media (max-width: 991px) {
+  .img-responsive {
+    width: 360px;
+    margin: 0 auto;
+  }
+  .shopping__titulo h2 {
+    position: relative;
+    top: -12px;
+  }
+.shopping__total {
+  position: relative;
+  top: 19px;
+  }
+.shopping {
+  margin-top: 35px;
+  height: 400px;
+  }
+.footer__logo {
+  font-size: 20px;
+  }
+.categoria__noquis {
+  background-color: #F4F4F4;
+  }
+.categoria__salsa {
+  background-color: #F4F4F4;
+  }
+}
+
+@media (max-width: 667px) {
+  .header {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .principal__row {
+    background-color: #F4F4F4;
+  }
+}

@@ -26,9 +26,9 @@
         - Fondo: #373737 (CHARCOAL)
         - Textos: #C0B283 (PALE GOLD), #DCD0D0 (SILK) y #F4F4F4 (PAPER)  
       - Catálogo:
-        Fondos: #C0B283 (PALE GOLD), #DCD0D0 (SILK) y #F4F4F4 (PAPER)
-        Textos: #373737 (CHARCOAL)
-        Imágenes: En carpeta img.
+        - Fondos: #C0B283 (PALE GOLD), #DCD0D0 (SILK) y #F4F4F4 (PAPER)
+        - Textos: #373737 (CHARCOAL)
+        - Imágenes: En carpeta img.
     - Shopping:
       - Fondo: #DCD0D0 (SILK)
       - Textos: #373737 (CHARCOAL)
