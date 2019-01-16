@@ -1,7 +1,10 @@
 body {
   background-color: #DCD0D0;
 }
-
+.btn {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
 /*BARRA DE NAVEGACIÓN*/
 .container-fluid {
   background-color: #373737;
@@ -26,7 +29,7 @@ body {
   height: 4px;
 }
 
-/*HEADER*/
+/*HEADER INDEX.HTML*/
 .header {
   background-image: url(http://www.cocinayvino.com/wp-content/uploads/2016/11/60414810_l.jpg);
   background-size: cover;
@@ -47,13 +50,84 @@ body {
   font-size: 55px;
   color: #F4F4F4;
 }
+/*HEADER TODAS LAS PAGINAS*/
+.nosotros_header, .filosofia_header, .contacto_header, .ayuda_header {
+  background-color: #C0B283;
+  padding: 60px 40px 80px 40px;
+}
 
-/*MAIN*/
+/*MAIN INDEX.HTML*/
 .principal__row {
   background-color: #373737;
 }
-
-/*SECCIÓN 2: PRODUCTOS*/
+/*MAIN DE TODAS LAS PAGINAS, FORMATO GENERAL*/
+.nosotros_main, .filosofia_main, .contacto_main, .ayuda_main {
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+/*MAIN CONTACTO.HTML*/
+.contacto_main {
+  text-align: center;
+}
+.contacto_main a {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  color: #373737;
+}
+.control-label {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
+.form-control {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+}
+.img_cocinanueva, .img_cocinaantigua, .img_nosotrosamigos, .img_noquisespinaca2, .img_crueltyfree2,
+.img_zerowaste {
+  border: 3px solid white;
+  margin-bottom: 25px;
+}
+.img_nosotrosamigos {
+  width: 80%;
+}
+.img_cocinanueva {
+  width: 90%;
+}
+.img_cocinaantigua {
+  width: 50%;
+}
+.img_noquisespinaca2 {
+  width: 80%;
+}
+.img_crueltyfree2 {
+  width: 50%;
+}
+.img_zerowaste {
+  width: 80%;
+}
+/*HEADER Y MAIN TODAS LAS PAGINAS*/
+.filosofia_header__titulo, .nosotros_header__titulo, .ayuda_header__titulo, .contacto_header__titulo,
+.contacto_titulo, .filosofia_main__nuevo, .nosotros_main__nuevo, .ayuda_main__nuevo {
+  font-family: 'Lobster', cursive;
+}
+.filosofia_header__subtitulo, .nosotros_header__subtitulo, .ayuda_header__subtitulo, .contacto_header__subtitulo {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
+.filosofia_main__texto, .nosotros_main__texto, .ayuda_main__texto {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  padding: 30px 0;
+}
+.contacto_main p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+}
+/*MAIN FILOSOFIA.HTML*/
+.filosofia_main .col-md-6 {
+  margin-bottom: 60px;
+}
+/*SECCIÓN 2: PRODUCTOS, INDEX.HTML*/
 .productos {
   background-color: #373737;
   color: #F4F4F4;
@@ -75,8 +149,7 @@ body {
   width: 1px;
 }
 
-/*Seccion NOQUIS*/
-
+/*Seccion NOQUIS, INDEX.HTML*/
 .titulo__selector__noquis {
   color: #CDB283;
   padding: 7px 15px;
@@ -101,7 +174,7 @@ body {
   font-weight: 300;
 }
 
-/*Sección SALSAS*/
+/*Sección SALSAS, INDEX.HTML*/
 .titulo__selector__salsas {
   color: #DCD0D0;
   padding: 7px 15px;
@@ -126,7 +199,7 @@ body {
   font-weight: 300;
 }
 
-/*Sección TOPPINGS*/
+/*Sección TOPPINGS, INDEX.HTML*/
 .titulo__selector__toppings {
   color: #F4F4F4;
   padding: 7px 15px;
@@ -151,7 +224,7 @@ body {
   font-weight: 300;
 }
 
-/*SECCIÓN 3: CATEGORIAS*/
+/*SECCIÓN 3: CATEGORIAS, INDEX.HTML*/
 .categorias  {
   background-color: #373737;
   font-family: 'Quicksand', sans-serif;
@@ -203,7 +276,7 @@ body {
   color: #373737;
 }
 
-/*SECCIÓN 4: CARRITO DE COMPRAS*/
+/*SECCIÓN 4: CARRITO DE COMPRAS, INDEX.HTML*/
 .shopping {
   background-color: #DCD0D0;
   height: 300px;
@@ -242,10 +315,11 @@ fieldset {
   padding-left: 15px;
 }
 
-/*FOOTER*/
+/*FOOTER, INDEX.HTML*/
 footer {
   background-color: #373737;
   color: #F4F4F4;
+  padding-bottom: 35px;
 }
 .footer {
   height: 135px;
@@ -307,10 +381,22 @@ footer {
   .header {
     margin-bottom: 0px;
   }
+  footer {
+    padding-bottom: 100px;
+  }
+  .img_cocinanueva {
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 1200px) {
   .principal__row {
     background-color: #F4F4F4;
+  }
+  .img_cocinanueva {
+    margin-bottom: 20px;
+  }
+  .img_cocinanueva, .img_cocinaantigua, .img_nosotrosamigos {
+    width: 100%;
   }
 }
