@@ -387,6 +387,9 @@ footer {
   .img_cocinanueva {
     margin-bottom: 20px;
   }
+  iframe {
+    width: 80%;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -399,4 +402,5 @@ footer {
   .img_cocinanueva, .img_cocinaantigua, .img_nosotrosamigos {
     width: 100%;
   }
+
 }
