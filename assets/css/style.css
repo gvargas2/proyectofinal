@@ -9,12 +9,12 @@ body {
   font-family: 'Lobster', cursive;
   position: absolute;
   top: 70px;
+  left: 45px;
   z-index: 1;
   font-size: 55px;
   color: #F4F4F4;
 }
 .img_carrusel {
-  background-size: cover;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -24,6 +24,14 @@ body {
 }
 .carousel-inner {
   height: 250px;
+}
+.formulario_compras {
+  height: 120px;
+}
+.estado_solicitud {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
 }
 /*BARRA DE NAVEGACIÓN*/
 .container-fluid {
@@ -48,20 +56,8 @@ body {
 .navbar-toggle .icon-bar {
   height: 4px;
 }
-
-/*HEADER INDEX.HTML*/
-.header {
-  background-image: url(http://www.cocinayvino.com/wp-content/uploads/2016/11/60414810_l.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 500px;
-  margin-bottom: 25px;
-}
-.header .row {
-  margin: 0;
-}
 /*HEADER TODAS LAS PAGINAS*/
-.nosotros_header, .filosofia_header, .contacto_header, .ayuda_header {
+.nosotros_header, .filosofia_header, .contacto_header, .ayuda_header, .galeria_header {
   background-color: #C0B283;
   padding: 60px 40px 80px 40px;
 }
@@ -116,11 +112,11 @@ body {
   width: 80%;
 }
 /*HEADER Y MAIN TODAS LAS PAGINAS*/
-.filosofia_header__titulo, .nosotros_header__titulo, .ayuda_header__titulo, .contacto_header__titulo,
+.filosofia_header__titulo, .galeria_header__titulo, .nosotros_header__titulo, .ayuda_header__titulo, .contacto_header__titulo,
 .contacto_titulo, .filosofia_main__nuevo, .nosotros_main__nuevo, .ayuda_main__nuevo {
   font-family: 'Lobster', cursive;
 }
-.filosofia_header__subtitulo, .nosotros_header__subtitulo, .ayuda_header__subtitulo, .contacto_header__subtitulo {
+.filosofia_header__subtitulo, .galeria_header__subtitulo, .nosotros_header__subtitulo, .ayuda_header__subtitulo, .contacto_header__subtitulo {
   font-family: 'Quicksand', sans-serif;
   font-weight: 700;
 }
@@ -307,7 +303,7 @@ fieldset {
 }
 .formulario {
   position: relative;
-  top: 30px;
+  top: 20px;
 }
 .formulario input {
   height: 200px;
@@ -356,6 +352,18 @@ footer {
 }
 .footer__rrss a {
   color: #C0B283;
+}
+
+/*GALERIA*/
+.social__link {
+  float: left;
+}
+.galeria_cuerpo {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.meals__img {
+  border: 2px solid white;
 }
 
 /*MEDIAS*/
@@ -410,5 +418,11 @@ footer {
   }
   iframe {
     width: 80%;
+  }
+  .shopping {
+    height: 360px;
+  }
+  .formulario {
+    top: 20px;
   }
 }
